@@ -1,7 +1,8 @@
 *{
-    margin: 0;
+    margin: 20PX;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: 10px;
+    box-decoration-break: slice;
     }
 body {
     width: 100%;
@@ -10,7 +11,7 @@ body {
     border-width: 5cm;
     border-color: crimson;
     border-style:inset;
-    margin: 0 auto;
+    margin: 20PX;
     width: 980px;
     position: relative;
     }
@@ -22,18 +23,31 @@ header {
     background-color: rgb(70, 70, 70);
     height: 80px;
     }
-  .logo {
+#logo {
         float:left;
         padding: 10px;
         width: 80%;
     }
-    .redes-sociais {
-        margin-right: 5px;
+div.redes-sociais {
+        margin-right: 50px;
         display: inline-block;
-        float:right;
+        float: left;
         width:20%;
         background-color: rgb(70, 70, 70);
         height: 80px;
     }
+div.quadrado {
+    border: 2px, solid, black;
+    width: 1080px;
+    height: 1920;
+    display: inline-block;
+    background-color: lightgray;
 
-
+}
+div#q1 {
+    background-color: azure;
+}
+div#q1 {
+    background-image: linear-gradient(to bottom,yellow,orange);
+}
+div#q1 {}
